@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iuslab.introsliderdemo.BanjalukaActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/sarajevo_2"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/banjaluka_2"
+                android:scaleType="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:background="@color/bg_home"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="The capital city of Republika Srpska"
+                android:textColor="@color/text_color_ef"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This beautiful town is surrounded by rolling green hills. It is split in two by the Vrbas, a very rough river that, just a short distance from Banja Luka, suddenly loses its waterfalls and cascades, and flows gently into town.
+                &#xA; The area around Banja Luka is mostly woodland, although there are mountains a little further from the city. The city itself is built in the Banja Luka valley, which is located at the transition between high and low mountain areas.
+                &#xA;
+Due to its long history, Banja Luka is rich in culture.The relatively poorly preserved Kastel Fortress is found in the city centre. This mediaeval castle is one of Banja Luka's main attractions. Located on the left bank of the Vrbas river, it gives a specific charm to the city. During the summer, music concerts take place in the fortress."
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                />
+
+            <Button
+                android:id="@+id/read_banjaluka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Read more"
+                android:textColor="@color/text_color_ef"
+                android:background="@color/bg_home"
+                android:padding="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

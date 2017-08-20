@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iuslab.introsliderdemo.SarajevoActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/sarajevo_2"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/sarajevo_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:background="@color/bg_home"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Meet the capital city of Bosnia and Herzegovina"
+                android:textColor="@color/text_color_ef"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sarajevo is restored historic centre that is full of welcoming cafes and good-value lodgings, curious architectural mixture of Ottoman, Yugoslav and Austro-Hungarian buildings.
+                &#xA; Directly north and south, steep valley sides are fuzzed with red-roofed Bosnian houses and prickled with uncountable minarets, climbing towards green-topped mountain ridges.
+                &#xA;At the westernmost end of the tramway spine, affluent Ilidža gives the city a final parkland flourish."
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                />
+            <Button
+                android:id="@+id/read_sarajevo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Read more"
+                android:textColor="@color/text_color_ef"
+                android:background="@color/bg_home"
+                android:padding="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

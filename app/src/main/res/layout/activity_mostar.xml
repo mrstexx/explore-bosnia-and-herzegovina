@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iuslab.introsliderdemo.MostarActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/mostar"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="40dp"
+                android:scaleType="center"
+                app:srcCompat="@drawable/mostar_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:background="@color/bg_home"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="The most popular touristic destination"
+                android:textColor="@color/text_color_ef"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Even mentioning the bridge for years after it fell to the bottom of the Neretva River could invoke tears as it symbolized both the city and the country as a whole.
+                &#xA; Now, more than a decade later, the beautiful stone structure that had spanned the Neretva River for over four centuries once again arches across its raging waters.
+                &#xA; Mostar has architecturally noteworthy buildings in a wide range of styles. Historicist architectural styles reflected cosmopolitan interest and exposure to foreign aesthetic trends and were artfully merged with indigenous styles. Examples include the Italianate Franciscan church, the Ottoman Muslibegovića house, the Dalmatian Corovic House and an Orthodox church which was built as gift from the Sultan."
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/read_mostar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:padding="15dp"
+                android:text="Read more"
+                android:textColor="@color/text_color_ef" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

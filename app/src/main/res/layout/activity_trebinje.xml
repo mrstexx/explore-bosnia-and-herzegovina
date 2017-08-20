@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.iuslab.introsliderdemo.TrebinjeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="40dp"
+                android:scaleType="center"
+                app:srcCompat="@drawable/trebinje_2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:background="@color/bg_home"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="Trebinje, the southernmost city"
+                android:textColor="@color/text_color_ef"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="This southernmost city in Bosnia and Herzegovina is only 28km from the famous city of Dubrovnik. The Old Town of Trebinje was established in the 18th century and soon developed into a trading crafts centre named Kastel.
+&#xA; The churches are located above the city, on the historic Crkvina Hill.
+The 15th-century Tvrdoš monastery is located two kilometres south-west of Trebinje, including a church which dates back to late antiquity. The city lies in the Trebišnjica river valley, at the foot of Leotar"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/read_trebinje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_home"
+                android:padding="15dp"
+                android:text="Read more"
+                android:textColor="@color/text_color_ef" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

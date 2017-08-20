@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">ExploreB&amp;H</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Explore!</string>
+    <string name="slide_1_desc">Visit the most popular destinations in our country</string>
+    <string name="slide_2_title">Enjoy!</string>
+    <string name="slide_2_desc">Enjoy and learn about our history by exploring new places</string>
+    <string name="slide_3_title">Ready?</string>
+    <string name="slide_3_desc">Prepare yourself and adventure can start</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_home_page">Explore\n Bosnia and Herzegovina</string>
+    <string name="title_activity_tabs">Home</string>
+    <string name="title_activity_sarajevo">Sarajevo</string>
+    <string name="title_activity_banjaluka">Banja Luka</string>
+    <string name="title_activity_mostar">Mostar</string>
+    <string name="title_activity_bihac">Bihac</string>
+    <string name="title_activity_trebinje">Trebinje</string>
+    <string name="title_activity_zenica">Zenica</string>
+
+</resources>

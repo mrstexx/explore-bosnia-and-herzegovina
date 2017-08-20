@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iuslab.introsliderdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity_new"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CitiesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DestinationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TabsActivity"
+            android:label="@string/title_activity_tabs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SarajevoActivity"
+            android:label="@string/title_activity_sarajevo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BanjalukaActivity"
+            android:label="@string/title_activity_banjaluka"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MostarActivity"
+            android:label="@string/title_activity_mostar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BihacActivity"
+            android:label="@string/title_activity_bihac"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TrebinjeActivity"
+            android:label="@string/title_activity_trebinje"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ZenicaActivity"
+            android:label="@string/title_activity_zenica"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
